@@ -14,10 +14,10 @@ import {
 } from "lucide-react";
 
 import treatmentImage from "@/assets/treatment-session.png";
-import foto1 from "@/assets/Foto 1.JFIF";
-import foto2 from "@/assets/Foto 2.JFIF";
-import foto3 from "@/assets/Foto 3.JFIF";
-import foto4 from "@/assets/Foto 4.JFIF";
+import foto1 from "@/assets/Foto 1.jfif";
+import foto2 from "@/assets/Foto 2.jfif";
+import foto3 from "@/assets/Foto 3.jfif";
+import foto4 from "@/assets/Foto 4.jfif";
 
 const Techniques = () => {
   const techniques = [
@@ -187,8 +187,8 @@ const Techniques = () => {
                 </button>
                 <div
                   className={`transition-all duration-500 ease-in-out ${openIndex === index
-                      ? "max-h-40 opacity-100 p-5 pt-0"
-                      : "max-h-0 opacity-0 p-0"
+                    ? "max-h-40 opacity-100 p-5 pt-0"
+                    : "max-h-0 opacity-0 p-0"
                     }`}
                 >
                   <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
