@@ -16,7 +16,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validate form
     if (!formData.name || !formData.email || !formData.phone || !formData.message) {
       toast({
@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground mb-1">Telefone</p>
-                    <p className="text-muted-foreground">(11) 99999-9999</p>
+                    <p className="text-muted-foreground">(11) 93710-0402</p>
                   </div>
                 </div>
 
@@ -109,7 +109,7 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Atendimento</p>
                     <p className="text-muted-foreground">
-                      Domiciliar em toda Grande São Paulo
+                      Domiciliar em toda Grande ABC
                     </p>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ const Contact = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="(11) 99999-9999"
+                  placeholder="(11) 93710-0402"
                   className="w-full"
                   required
                 />

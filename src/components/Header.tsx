@@ -25,11 +25,10 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${isScrolled
           ? "bg-background/95 backdrop-blur-md shadow-soft"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
@@ -38,7 +37,7 @@ const Header = () => {
               <span className="text-white font-bold text-xl">F</span>
             </div>
             <span className="font-bold text-lg md:text-xl text-foreground">
-              Fisioterapia Respiratória
+              Fisioterapia Respiratória Pediatrica Maisa
             </span>
           </div>
 
