@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-fisioterapia.JFIF";
+import heroImage from "@/assets/hero-fisioterapia.jfif";
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
